@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  margin-top: 100px;
 }
 
 .App-logo {
@@ -19,4 +19,62 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+/* FLEX CONTAINER */
+.FlexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.FlexContainer-item {
+  flex: auto;
+}
+
+.RectangleBox {
+  margin: 0px;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: 1px solid #a3a3a3;
+  color: #a3a3a3;
+  font-weight: 500;
+}
+
+.SquareBox {
+  max-width: 120px;
+  margin: 0px 5px;
+  margin-top: 15px;
+  padding: 20px 20px;
+  border: 1px solid #a3a3a3;
+  color: #a3a3a3;
+  text-align: center;
+  font-weight: 500;
+}
+
+.AllRadius{
+  border-radius: 5px;
+}
+
+.LeftRadius{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+}
+
+.RightRadius{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.Active {
+  border-color: #56aed1;
+  color: #56aed1;
+}
+
+.Hide{
+  display: none;
+}
+
+#ButtonSave{
+  margin-top: 20px;
 }
